@@ -9,7 +9,12 @@ public class Base {
 	{
 		System.setProperty("WebDriver.chrome.driver", "src\\test\\resources\\browser\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
-        return driver;
+        return driver; 
 	}
-
+	public static WebDriver openbrowser1()
+	{
+		System.setProperty("WebDriver.chrome.driver", "src\\test\\resources\\browser\\chromedriver.exe");
+        WebDriver driver=new ChromeDriver();
+        return driver; 
+	}
 }
