@@ -17,4 +17,11 @@ public class Base {
         WebDriver driver=new ChromeDriver();
         return driver; 
 	}
-}
+        public static WebDriver openbrowser2()
+        {
+        	System.setProperty("WebDriver.Chrome.driver", "");
+        	WebDriver driver=new ChromeDriver();
+        	return driver;
+        }
+	}
+
